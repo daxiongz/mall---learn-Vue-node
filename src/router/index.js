@@ -10,7 +10,7 @@ import Goods from '@/view/goods'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
+  /*routes: [
     // {
     //   path: '/',
     //   name: 'HelloWorld',
@@ -39,5 +39,19 @@ export default new Router({
     	name: 'goods',
     	component: Goods
     }
+  ]*/
+
+  // 命名视图
+  routes: [
+  	{
+  		// '/' 根路由所在的页面是 app.vue
+  		path: '/',
+  		name: '/',
+  		components: {
+  			default: Goods,
+  			title1: Title1,
+  			title2: Title2
+  		}
+  	}
   ]
 })
