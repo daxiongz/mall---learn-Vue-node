@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+// import HelloWorld from '@/components/HelloWorld'
+
+import MyHeader from '@/components/myHeader'
 // 引入组件
 import Test from '@/view/test'  
 import Title1 from '@/view/title1'
@@ -10,6 +12,13 @@ import Goods from '@/view/goods'
 Vue.use(Router)
 
 export default new Router({
+	// routes: [
+	// 	{
+	// 		path: '/',
+	// 		name: 'MyHeader',
+	// 		component: MyHeader
+	// 	}
+	// ]
   /*routes: [
     // {
     //   path: '/',
