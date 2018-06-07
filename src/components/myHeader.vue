@@ -1,6 +1,8 @@
 <template>
   <div class="myHeader">
-    Hello, I'm here!
+    <div class="test">
+      the mall of daxiong      
+    </div>
   </div>
 </template>
 
@@ -17,6 +19,12 @@
 </script>
 
 <!-- scoped 表示样式只应用于该组件 -->
-<style scoped>
-  
+<style lang="less" scoped>
+  .myHeader {
+    .test {
+      background: #ccc;
+      text-align: center;
+      padding: 5px;
+    }
+  }
 </style>
